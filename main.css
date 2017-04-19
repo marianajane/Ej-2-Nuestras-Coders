@@ -1,0 +1,64 @@
+body{
+	font-family: monospace;
+	font-size: 14px;
+	font-style: bold;
+	text-align: center;
+	color: whitesmoke;
+}
+
+header {
+	padding: 10px;
+	background-color: black;
+	border-bottom: 5px solid #DBD89F;
+}
+
+.box-coders {
+	position: relative;
+	display: inline-block;
+	margin: 20px;
+	width: 200px;
+	height: 200px;
+	border: 1px solid whitesmoke;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+span {
+	position: absolute;
+	margin-top: 180px;
+	margin-left: 25px;
+	color: whitesmoke;
+	font-style: bold;
+}
+
+#kary {
+	background-image: url(img/kary.jpg);
+}
+
+#silvana {
+	background-image: url(img/silvana.jpg);
+}
+
+#lucero {
+	background-image: url(img/lucero.jpg);
+}
+
+#mariana {
+	background-image: url(img/mariana.jpg);
+}
+
+#mimi {
+	background-image: url(img/mimi.jpg);
+}
+
+#pitt {
+	background-image: url(img/pitt.jpg);
+}
+
+#amalia {
+	background-image: url(img/amalia.jpg);
+}
+
+#edith {
+	background-image: url(img/edith.jpg);
+}
+

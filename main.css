@@ -1,37 +1,47 @@
 body{
-	font-family: monospace;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	font-style: bold;
 	text-align: center;
-	color: whitesmoke;
+	color: white;
+	background-color: #FCFBF9;
 }
 
 header {
+	width: 100%;
 	padding: 10px;
 	background-color: black;
-	border-bottom: 5px solid #DBD89F;
+}
+
+.contenedor {
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	height: 600px;
+
 }
 
 .box-coders {
-	position: relative;
 	display: inline-block;
 	margin: 20px;
 	width: 200px;
 	height: 200px;
 	border: 1px solid whitesmoke;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.3);
 }
 
 span {
-	position: absolute;
+	position: relative;
 	margin-top: 180px;
-	margin-left: 25px;
+	float: right;
+	font-family: "Inconsolata";
 	color: whitesmoke;
-	font-style: bold;
+    text-shadow: 1px 1px 2px black, 0 0 5px grey, 0 0 5px darkblue;
 }
 
 #kary {
 	background-image: url(img/kary.jpg);
+
 }
 
 #silvana {
